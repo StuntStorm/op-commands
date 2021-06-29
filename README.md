@@ -2,7 +2,8 @@
 
 Op Commands for Administrators to maintain and protect the server from hackers and raiders
 
-![@stuntstormmath (1)](https://user-images.githubusercontent.com/56226566/123553535-5cb0f080-d799-11eb-8a58-5aa4bac4fb43.png)
+![@stuntstormmath (2)](https://user-images.githubusercontent.com/56226566/123737198-2cb03d00-d8c0-11eb-8e53-724367f28395.png)
+
 
 
 ## Installation ⚒️
@@ -61,8 +62,8 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on("message", message => {
-  if(message.content == "!nuke") {
-    package.nuke(message,client,args);
+  if(message.content == "!lockdown") {
+    package.lockdown(message,client,args);
   }
 });
 
@@ -75,8 +76,8 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on("message", message => {
-  if(message.content == "!nuke") {
-    package.nuke(message,client,args);
+  if(message.content == "!opban") {
+    package.opban(message,client,args);
   }
 });
 
@@ -85,11 +86,11 @@ client.login("token");
 ## Example Scenerio 💻
 
 #### Index.js Code : 
-![image](https://user-images.githubusercontent.com/56226566/123553704-80286b00-d79a-11eb-8fe5-1a9beba65a76.png)
+![image](https://user-images.githubusercontent.com/56226566/123736718-4a30d700-d8bf-11eb-9549-cd644c6f7023.png)
 #### Discord Output : 
-![image](https://user-images.githubusercontent.com/56226566/123553737-ac43ec00-d79a-11eb-9acf-687164344e8e.png)
-#### Voicechat Output : 
-![image](https://user-images.githubusercontent.com/56226566/123567855-b8529c80-d7e0-11eb-8eff-ee403a58dbb8.png)
+![image](https://user-images.githubusercontent.com/56226566/123736827-7fd5c000-d8bf-11eb-9f17-7c090987ed3e.png)
+#### Ban Logs Output : 
+![image](https://user-images.githubusercontent.com/56226566/123736875-9a0f9e00-d8bf-11eb-8464-dd9f56da58a9.png)
 
 
 ## Support 🐱‍💻
