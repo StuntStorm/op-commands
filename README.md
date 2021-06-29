@@ -17,14 +17,23 @@ const package = require("@stuntstorm/op-commands")
 ```
 
 ### Over-Powered Commands 🐱‍🏍
+
+#### NUKE COMMAND : 
+#### Use this if the raiders or anyone has leaked your private info/ or just want to clear the chat
+Nukes the Channel (Removes all the Chats in that channel and replaces with clear Channel) 
 ```
 package.nuke(message,client,args);
 ```
-Nukes the Channel (Removes all the Chats in that channel and replaces with clear Channel) 
-#### Use this if the raiders or anyone has leaked your private info/ or just want to clear the chat
+#### LOCKDOWN COMMAND : 
+#### Use this if you think theres possible attack from raiders or hackers
+Locks down the entire server with a simple command and once the threat is handled unlock the server at your wish
+
 ```
 package.lockdown(message,client,args)
 ```
+#### OP-BAN COMMAND : 
+#### Use this if you get info that certain user id is a hacker or raider
+Use this command to op-ban someone who isnt in your server. Remove Raiders/Hackers and keep your server protected!
 ```
 package.opban(message,client,args)
 ```
